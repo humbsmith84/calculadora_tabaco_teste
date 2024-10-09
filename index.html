@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Tabaco Teste</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main id="container">
@@ -18,9 +19,41 @@
                     CALCULADORA - TABACO
                 </h1>
                 <div class="input-box">
-                    <label for="weight"></label>
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" id="weight" required>
+                        <span>Kg</span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="number" id="height" required>
+                        <span>m</span>
+                    </div>
+                    <button id="calculate">Calcular</button>
                 </div>
             </form>
+            <div id="infos">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="more_info">
+                    <a href="images/cigarro-e-calculadora-com-mone_38038-108.jpg"></a>
+                </div>
+            </div>
         </section>
     </main>
 </body>
