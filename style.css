@@ -135,8 +135,8 @@ body {
 }
 
 #more_info {
-    text-align: center;
     border-top: 1px #ffffff34;
+    padding-top: 1.5rem;
 }
 
 #more_info a {
