@@ -12,4 +12,4 @@ form.addEventListener('submit', function(event) {
     let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
-})
+});
