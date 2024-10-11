@@ -9,7 +9,7 @@ form.addEventListener('submit', function(event) {
     const bmi = (years).toFixed(2);
 
     const value = document.getElementById('value');
-    let description = '';
+    let description = 'Teste calculadora tabagica';
 
     document.getElementById('infos').classList.remove('hidden');
 
