@@ -6,10 +6,10 @@ form.addEventListener('submit', function(event) {
     const cigarette = document.getElementById('cigarette').value;
     const years = document.getElementById('years').value;
 
-    const bmi = (years * (cigarrete / 20)).toFixed(0);
+    const bmi = ((cigarrete / 20) * years).toFixed(0);
 
     const value = document.getElementById('value');
-    let description = 'Teste calculadora tabagica';
+    let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
 
