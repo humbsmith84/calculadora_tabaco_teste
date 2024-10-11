@@ -6,14 +6,14 @@ form.addEventListener('submit', function(event) {
     const cigarette = document.getElementById('cigarette').value;
     const years = document.getElementById('years').value;
 
-    const bmi = (years * (cigarette / 20)).toFixed(2);
+    const bmi = ((cigarette / 20) * years).toFixed(2);
 
     const value = document.getElementById('value');
     let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
 
-    value.textContent = bmi.replace('.', ',');
+    value.textContent = bmi;
     document.getElementById('description').textContent = description;
     
 });
