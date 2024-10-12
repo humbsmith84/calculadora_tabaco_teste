@@ -9,7 +9,7 @@ form.addEventListener('submit', function(event) {
     const bmi = (cigarette / (years * years)).toFixed(2);
 
     const value = document.getElementById('value');
-    let description = 'teste';
+    let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
 
