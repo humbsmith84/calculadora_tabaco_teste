@@ -6,7 +6,7 @@ form.addEventListener('submit', function(event) {
     const cigarette = document.getElementById('cigarette').value;
     const years = document.getElementById('years').value;
 
-    const bmi = ((cigarette / 20) * years);
+    const bmi = (years * (cigarette / 20));
 
     const value = document.getElementById('value');
     let description = '';
