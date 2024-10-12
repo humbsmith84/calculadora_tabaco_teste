@@ -9,7 +9,7 @@ form.addEventListener('submit', function(event) {
     const bmi = (years * (cigarette / 20));
 
     const value = document.getElementById('value');
-    let description = '';
+    let description = 'A calculadora de carga tabágica (CT) é uma ferramenta que ajuda a avaliar o impacto do tabagismo na saúde de um indivíduo';
 
     document.getElementById('infos').classList.remove('hidden');
 
