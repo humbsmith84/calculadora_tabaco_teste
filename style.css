@@ -124,6 +124,7 @@ body {
     flex-direction: column;
     font-size: 4rem;
     color: red;
+    font-weight: bold;
 }
 
 #bmi span:last-child {
