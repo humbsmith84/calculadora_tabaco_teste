@@ -9,11 +9,11 @@ form.addEventListener('submit', function(event) {
     const bmi = (years * (cigarette / 20));
 
     const value = document.getElementById('value');
-    let description = '';
+    // let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
 
     value.textContent = bmi;
-    document.getElementById('description').textContent = description;
+    // document.getElementById('description').textContent = description;
     
 });
