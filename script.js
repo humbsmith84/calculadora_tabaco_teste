@@ -17,3 +17,7 @@ form.addEventListener('submit', function(event) {
     // document.getElementById('description').textContent = description;
     
 });
+
+function clearForm() {
+    document.getElementById("form").reset();
+}
