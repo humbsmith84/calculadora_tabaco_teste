@@ -12,6 +12,7 @@ form.addEventListener('submit', function(event) {
     // let description = '';
 
     document.getElementById('infos').classList.remove('hidden');
+    document.getElementById('clear').classList.remove('hidden');
 
     value.textContent = bmi;
     // document.getElementById('description').textContent = description;
@@ -19,5 +20,5 @@ form.addEventListener('submit', function(event) {
 });
 
 function clearForm() {
-    document.getElementById("form").reset();
+    document.getElementById('form').reset();
 }
