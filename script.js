@@ -20,5 +20,5 @@ form.addEventListener('submit', function(event) {
 });
 
 function clearForm() {
-    document.getElementById('container').reset();
+    document.getElementById('form').reset();
 }
