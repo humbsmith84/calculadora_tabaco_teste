@@ -121,6 +121,7 @@ body {
     cursor: pointer;
 }
 
+
 #result {
     display: flex;
     gap: 2rem;
