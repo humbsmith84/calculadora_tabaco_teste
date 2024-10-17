@@ -13,6 +13,8 @@ form.addEventListener('submit', function(event) {
 
     document.getElementById('infos').classList.remove('hidden');
     document.getElementById('clear').classList.remove('hidden');
+    document.getElementById('calculate').classList.add('hidden');
+
 
     value.textContent = bmi;
     // document.getElementById('description').textContent = description;
