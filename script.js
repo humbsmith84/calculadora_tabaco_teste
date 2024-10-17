@@ -20,5 +20,5 @@ form.addEventListener('submit', function(event) {
 });
 
 function clearForm() {
-    window.location.reload(true);
+    location.reload();
 }
